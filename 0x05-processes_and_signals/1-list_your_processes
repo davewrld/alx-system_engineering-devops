@@ -2,4 +2,4 @@
 # Display currently running processes.
 # all user including a TTY.
 
-ps -aux | less
+ps -auxf
