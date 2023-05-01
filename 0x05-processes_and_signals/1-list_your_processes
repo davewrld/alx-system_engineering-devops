@@ -1,2 +1,5 @@
 #!/usr/bin/env bash
+# Display currently running processes.
+# all user including a TTY.
+
 ps -aux | less
