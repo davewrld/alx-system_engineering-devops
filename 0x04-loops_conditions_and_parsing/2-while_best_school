@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
-# While Best School loop
+# Display "Best School"10 times use while loop
 
 x=1
-while [ x -le 10 ]
+
+while [ $x -le 10 ]
 do
   echo "Best School"
-  x=(x + 1)
+  x=$((x + 1))
 done
