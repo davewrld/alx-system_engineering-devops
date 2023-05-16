@@ -4,16 +4,13 @@
 # Initialize counter
 n=0
 # Iterate loop
-while [$n -le 10 ]
+while [$n -lt 10 ]
 do
-    #increment loop
-    (( n++ ))
-
-    #check 9th value
-    if [ $n == 9 ]
+    echo 'Best School'
+    if [ $n -eq 9 ]
     then
-        echo "Hi"
+	echo 'Hi'
     fi
-        echo "Best School"
+    i=$((n+1))
 done
-   
+
