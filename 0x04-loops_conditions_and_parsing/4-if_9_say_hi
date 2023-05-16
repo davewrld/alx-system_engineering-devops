@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Dispays 'Best School' 10 times, on 9th iteration displys 'Best'
+
+# Initialize counter
+n=0
+# Iterate loop
+while [$n -le 10 ]
+do
+    #increment loop
+    (( n++ ))
+
+    #check 9th value
+    if [ $n == 9 ]
+    then
+        echo "Hi"
+    fi
+        echo "Best School"
+done
+   
