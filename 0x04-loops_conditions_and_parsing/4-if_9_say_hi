@@ -10,5 +10,5 @@ do
 	echo "H"
     fi
     echo "Best School"
-    (( n++ ))
+    n=$((i+1))
 done
