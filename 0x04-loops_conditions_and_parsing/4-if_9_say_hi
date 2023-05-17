@@ -4,8 +4,8 @@
 
 n=1
 
-while [ $n -le 9 ]; do
-    if [ $n -eq 8 ]; then
+while [ $n -le 10 ]; do
+    if [ $n -eq 9 ]; then
 	echo "Best School"
 	echo "Hi"
     else
