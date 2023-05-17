@@ -1,15 +1,16 @@
 #!/usr/bin/env bash
-# Dispays "Best School" 10 times, on 9th iteration displys "Hi"
+# Dispays "Best School" 10 times using a while loop.
+#  On 9th iteration displys "Hi".
 
 n=0
 
-while [$n -le 10 ]; do
-    if [ $n -eq 9 ]; then
-	echo "Best School"
+while [$n -lt 10 ]
+do
+    if [ $n -eq 9 ]
+    then
 	echo "Hi"
     else
 	echo "Best School"
     fi
-
-    n=$((i+1))
+    n=$((n+1))
 done
