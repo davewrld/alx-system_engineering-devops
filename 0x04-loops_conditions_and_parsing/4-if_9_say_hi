@@ -2,12 +2,12 @@
 # Dispays 'Best School' 10 times, on 9th iteration displys 'Best'
 
 # Initialize counter
-n=1
+n=0
 # Iterate loop
 while [$n -lt 10 ]
 do
     echo 'Best School'
-    if [ $n -eq 9 ]
+    if [ $n -eq 8 ]
     then
 	echo 'Hi'
     fi
