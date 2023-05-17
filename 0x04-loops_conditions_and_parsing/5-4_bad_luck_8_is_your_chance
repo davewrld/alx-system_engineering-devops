@@ -4,14 +4,14 @@
 # displays "good luck" for the 8th loop iteration
 # displays "Best School" for the other iterations
 
-n=0
+n=1
 
 while [ $n -le 10 ] 
 do
-    if [ $n -eq 3 ]
+    if [ $n -eq 4 ]
     then
         echo "bad luck"
-    elif [ $n -eq 7 ]
+    elif [ $n -eq 8 ]
     then
         echo "good luck"
     else
