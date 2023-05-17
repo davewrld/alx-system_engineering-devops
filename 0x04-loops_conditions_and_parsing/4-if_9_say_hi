@@ -4,13 +4,13 @@
 
 n=0
 
-while [$n -lt 10 ]
-do
-    if [ $n -eq 9 ]
-    then
+while [$n -le 10 ]; do
+    if [ $n -eq 9 ]; then
+	echo "Best School"
 	echo "Hi"
     else
 	echo "Best School"
     fi
+
     n=$((n+1))
 done
