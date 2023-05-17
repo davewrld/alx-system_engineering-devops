@@ -6,7 +6,7 @@
 
 n=0
 
-while [ $n -le 10] 
+while [ $n -le 10 ] 
 do
     if [ $n -eq 3 ]
     then
@@ -17,5 +17,5 @@ do
     else
 	echo "Best School"
     fi
-    n = $(( n+1 ))
+    n=$((n+1))
 done 
