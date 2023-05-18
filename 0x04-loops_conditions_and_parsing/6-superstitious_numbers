@@ -17,4 +17,5 @@ do
     else
         echo "$n"
     fi
+    (( n++ ))
 done
