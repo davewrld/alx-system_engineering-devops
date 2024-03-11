@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#Prints "Best school" & "Hi" @ count 9
+counter=0
+while [ $counter -le 8 ]; do
+    echo "Best School"
+    if [[ $counter -eq 7 ]]; then
+        echo "Hi"
+    fi
+    ((counter++))
+done
