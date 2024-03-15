@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Displays listening ports,shows the PID and name of eachsocket
+
+echo "Active Internate connections (only servers)"
+netstat -tunlp
+
+echo "Active UNIX domain sockets (only servers)"
+netstat -lx
