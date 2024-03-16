@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # shows attached IPS
 
-ip -4 addr
+/sbin/ip -4 -0
