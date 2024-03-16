@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Configures an ubuntu server
+
+mappings=("127.0.0.2 localhost" "8.8.8.8 facebook.com")
+
+hosts_file="/etc/hosts"
+for mapping in "${mappings[@]}"; do
+	echo "$mapping" >> "$hosts_file"
+done
