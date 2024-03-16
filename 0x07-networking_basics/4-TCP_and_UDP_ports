@@ -3,6 +3,5 @@
 
 echo "Active Internate connections (only servers)"
 netstat -tunlp
-
 echo "Active UNIX domain sockets (only servers)"
 netstat -lx
